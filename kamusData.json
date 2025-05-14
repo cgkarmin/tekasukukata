@@ -1,0 +1,502 @@
+[
+  {
+    "perkataan": "AMBULAN",
+    "sukuKataAkhir": "LAN",
+    "makna": "Kenderaan khas (kereta dll) yg digunakan utk mengangkut orang sakit atau cedera ke hospital."
+  },
+  {
+    "perkataan": "ANDARTU",
+    "sukuKataAkhir": "TU",
+    "makna": "Anak dara tua; perempuan perawan yg sudah lanjut usianya."
+  },
+  {
+    "perkataan": "ANGGOTA",
+    "sukuKataAkhir": "TA",
+    "makna": "Sebahagian drpd badan (spt tangan, kaki, kepala); bahagian drpd sesuatu kumpulan (pertubuhan, pasukan dll)."
+  },
+  {
+    "perkataan": "ANGKARA",
+    "sukuKataAkhir": "RA",
+    "makna": "Keadaan (perbuatan) jahat, huru-hara, bengis; akibat buruk (drpd sesuatu perbuatan)."
+  },
+  {
+    "perkataan": "ANGKASA",
+    "sukuKataAkhir": "SA",
+    "makna": "Lapisan udara (langit) yg melingkungi bumi; ruang di luar atmosfera bumi."
+  },
+  {
+    "perkataan": "BAGINDA",
+    "sukuKataAkhir": "DA",
+    "makna": "Kata ganti nama diri ketiga utk raja atau sultan."
+  },
+  {
+    "perkataan": "BAHAGIA",
+    "sukuKataAkhir": "GIA",
+    "makna": "Keadaan senang dan gembira; bertuah; makmur; selamat."
+  },
+  {
+    "perkataan": "BANDING",
+    "sukuKataAkhir": "DING",
+    "makna": "Sama taraf, seimbang, sebanding; perbandingan; mengemukakan rayuan ke mahkamah lebih tinggi."
+  },
+  {
+    "perkataan": "BANGKAI",
+    "sukuKataAkhir": "KAI",
+    "makna": "Tubuh (bangkai) manusia atau binatang yg sudah mati; sisa (tinggalan) drpd benda yg rosak atau musnah."
+  },
+  {
+    "perkataan": "BANGKIT",
+    "sukuKataAkhir": "KIT",
+    "makna": "Berdiri (setelah duduk, baring dll); bangun; timbul (penyakit, semangat dll); memberontak."
+  },
+  {
+    "perkataan": "BANGSAL",
+    "sukuKataAkhir": "SAL",
+    "makna": "Bangunan kecil atau sederhana utk menyimpan barang, ternakan dll; warung (tempat berniaga)."
+  },
+  {
+    "perkataan": "BANGSAT",
+    "sukuKataAkhir": "SAT",
+    "makna": "Tidak jujur, jahat (tt kelakuan); orang yg tidak berketurunan baik."
+  },
+  {
+    "perkataan": "BANTING",
+    "sukuKataAkhir": "TING",
+    "makna": "Menghempaskan sesuatu kuat-kuat; membanting tulang = bekerja keras."
+  },
+  {
+    "perkataan": "BASIKAL",
+    "sukuKataAkhir": "KAL",
+    "makna": "Kenderaan beroda dua (atau tiga) yg digerakkan dgn mengayuh pedal."
+  },
+  {
+    "perkataan": "BELACAN",
+    "sukuKataAkhir": "CAN",
+    "makna": "Sejenis bahan perasa yg dibuat drpd udang kecil yg ditumbuk dan diperam."
+  },
+  {
+    "perkataan": "BELALAI",
+    "sukuKataAkhir": "LAI",
+    "makna": "Hidung gajah yg panjang (digunakan utk bernafas, mengambil makanan dll)."
+  },
+  {
+    "perkataan": "BELAJAR",
+    "sukuKataAkhir": "JAR",
+    "makna": "Mendapat pengetahuan atau kemahiran; bersekolah; berlatih."
+  },
+  {
+    "perkataan": "BELANGA",
+    "sukuKataAkhir": "NGA",
+    "makna": "Periuk tanah atau logam utk memasak nasi, gulai dll."
+  },
+  {
+    "perkataan": "BELANJA",
+    "sukuKataAkhir": "JA",
+    "makna": "Wang yg dikeluarkan utk membeli sesuatu; perbelanjaan; membelanjakan wang."
+  },
+  {
+    "perkataan": "BELATUK",
+    "sukuKataAkhir": "TUK",
+    "makna": "Sejenis burung yg mematuk batang pokok utk mencari serangga atau membuat sarang."
+  },
+  {
+    "perkataan": "BELUKAR",
+    "sukuKataAkhir": "KAR",
+    "makna": "Tumbuhan kecil dan pokok renek yg tumbuh semula di kawasan hutan yg telah ditebang."
+  },
+  {
+    "perkataan": "BENCANA",
+    "sukuKataAkhir": "NA",
+    "makna": "Kejadian yg mendatangkan malapetaka (kerosakan, penderitaan); musibah."
+  },
+  {
+    "perkataan": "BENDANG",
+    "sukuKataAkhir": "DANG",
+    "makna": "Tanah yg bersawah (utk menanam padi)."
+  },
+  {
+    "perkataan": "BENDERA",
+    "sukuKataAkhir": "RA",
+    "makna": "Kain bercorak atau berwarna sbg lambang negara, negeri, pertubuhan dll."
+  },
+  {
+    "perkataan": "BENGKAK",
+    "sukuKataAkhir": "KAK",
+    "makna": "Menjadi buncit atau membubung (bkn anggota badan akibat sakit dll)."
+  },
+  {
+    "perkataan": "BENGKEL",
+    "sukuKataAkhir": "KEL",
+    "makna": "Tempat (bangunan) utk membuat atau membaiki sesuatu (kereta, perabot dll); kumpulan kajian."
+  },
+  {
+    "perkataan": "BENGKOK",
+    "sukuKataAkhir": "KOK",
+    "makna": "Tidak lurus, berkeluk, berbelit; tidak jujur."
+  },
+  {
+    "perkataan": "BENTANG",
+    "sukuKataAkhir": "TANG",
+    "makna": "Menghamparkan (tikar, permaidani dll); menerangkan, menghuraikan sesuatu."
+  },
+  {
+    "perkataan": "BENTENG",
+    "sukuKataAkhir": "TENG",
+    "makna": "Tembok atau timbunan tanah sbg kubu pertahanan."
+  },
+  {
+    "perkataan": "BERILMU",
+    "sukuKataAkhir": "MU",
+    "makna": "Mempunyai pengetahuan yg luas; pandai; berpengetahuan."
+  },
+  {
+    "perkataan": "BERLARI",
+    "sukuKataAkhir": "RI",
+    "makna": "Bergerak cepat dgn kaki."
+  },
+  {
+    "perkataan": "BERHALA",
+    "sukuKataAkhir": "LA",
+    "makna": "Patung (arca) yg disembah; sesuatu yg dipuja atau disembah."
+  },
+  {
+    "perkataan": "BERJAYA",
+    "sukuKataAkhir": "YA",
+    "makna": "Mendapat kejayaan; berhasil; tercapai (cita-cita)."
+  },
+  {
+    "perkataan": "BERLIAN",
+    "sukuKataAkhir": "AN",
+    "makna": "Intan yg diasah dan digilap hingga berkilau."
+  },
+  {
+    "perkataan": "BERUANG",
+    "sukuKataAkhir": "ANG",
+    "makna": "Sejenis binatang liar (mamalia besar) yg berbulu tebal."
+  },
+  {
+    "perkataan": "BIJIRIN",
+    "sukuKataAkhir": "RIN",
+    "makna": "Hasil biji-bijian (drpd tumbuh-tumbuhan spt padi, gandum, jagung); tumbuhan yg menghasilkan biji-bijian."
+  },
+  {
+    "perkataan": "BIMBANG",
+    "sukuKataAkhir": "BANG",
+    "makna": "Merasa tidak tenteram, waswas, khuatir."
+  },
+  {
+    "perkataan": "BIMBING",
+    "sukuKataAkhir": "BING",
+    "makna": "Memimpin (dgn tangan dll); menuntun; memberi tunjuk ajar."
+  },
+  {
+    "perkataan": "BINCANG",
+    "sukuKataAkhir": "CANG",
+    "makna": "Berunding, berbahas, membahaskan sesuatu."
+  },
+  {
+    "perkataan": "BINGKAI",
+    "sukuKataAkhir": "KAI",
+    "makna": "Rangka tepi (lukisan, cermin, pintu dll)."
+  },
+  {
+    "perkataan": "BINGKAS",
+    "sukuKataAkhir": "KAS",
+    "makna": "Bangkit semula dgn cepat; cepat sembuh (drpd sakit)."
+  },
+  {
+    "perkataan": "BINGUNG",
+    "sukuKataAkhir": "NGUNG",
+    "makna": "Merasa tidak tentu arah, kacau fikiran, hilang akal."
+  },
+  {
+    "perkataan": "BINTANG",
+    "sukuKataAkhir": "TANG",
+    "makna": "Jasad cakerawala yg mengeluarkan cahaya sendiri; orang terkenal (pelakon, penyanyi dll)."
+  },
+  {
+    "perkataan": "BONGKAH",
+    "sukuKataAkhir": "KAH",
+    "makna": "Ketulan besar (kayu, arang, emas dll)."
+  },
+  {
+    "perkataan": "BONGKAK",
+    "sukuKataAkhir": "KAK",
+    "makna": "Bersikap sombong, megah diri."
+  },
+  {
+    "perkataan": "BONGKAR",
+    "sukuKataAkhir": "KAR",
+    "makna": "Membuka (peti, muatan kapal dll); menggali (tanah); membongkar rahsia."
+  },
+  {
+    "perkataan": "BONGKOK",
+    "sukuKataAkhir": "KOK",
+    "makna": "Keadaan tulang belakang melengkung (badan membongkok)."
+  },
+  {
+    "perkataan": "BUMBUNG",
+    "sukuKataAkhir": "BUNG",
+    "makna": "Bahagian paling atas bangunan (atap)."
+  },
+  {
+    "perkataan": "BUNGKUS",
+    "sukuKataAkhir": "KUS",
+    "makna": "Menyelubungi (dgn kertas, kain dll); barang yg dibungkus."
+  },
+  {
+    "perkataan": "BUNTING",
+    "sukuKataAkhir": "TING",
+    "makna": "Mengandung (bkn binatang)."
+  },
+  {
+    "perkataan": "CANGKUK",
+    "sukuKataAkhir": "KUK",
+    "makna": "Dahan yg dicederakan dan dibalut utk mengeluarkan akar sblm dipotong dan ditanam."
+  },
+  {
+    "perkataan": "CANGKUL",
+    "sukuKataAkhir": "KUL",
+    "makna": "Alat utk menggali atau mengolah tanah (dgn mata drpd besi atau keluli)."
+  },
+  {
+    "perkataan": "CELOTEH",
+    "sukuKataAkhir": "TEH",
+    "makna": "Percakapan (bkn anak-anak), cerewet."
+  },
+  {
+    "perkataan": "CEMBUNG",
+    "sukuKataAkhir": "BUNG",
+    "makna": "Melengkung keluar (spt kanta cembung)."
+  },
+  {
+    "perkataan": "CEMBURU",
+    "sukuKataAkhir": "RU",
+    "makna": "Merasa tidak senang hati melihat kelebihan atau kemesraan orang lain."
+  },
+  {
+    "perkataan": "CEMPAKA",
+    "sukuKataAkhir": "KA",
+    "makna": "Sejenis pokok dan bunganya yg harum."
+  },
+  {
+    "perkataan": "CENGKAM",
+    "sukuKataAkhir": "KAM",
+    "makna": "Memegang erat, mencekau; menguasai."
+  },
+  {
+    "perkataan": "CENGKIH",
+    "sukuKataAkhir": "KIH",
+    "makna": "Sejenis rempah drpd kuntum bunga pokok."
+  },
+  {
+    "perkataan": "CERAMAH",
+    "sukuKataAkhir": "MAH",
+    "makna": "Pidato, syarahan (utk mendidik atau memberi penerangan)."
+  },
+  {
+    "perkataan": "CEREWET",
+    "sukuKataAkhir": "WET",
+    "makna": "Banyak cakap dan rewel (tt urusan kecil)."
+  },
+  {
+    "perkataan": "CEROBOH",
+    "sukuKataAkhir": "BOH",
+    "makna": "Tidak sopan, biadab; tidak teliti, kasar; menceroboh masuk."
+  },
+  {
+    "perkataan": "CINCANG",
+    "sukuKataAkhir": "CANG",
+    "makna": "Memotong kecil-kecil."
+  },
+  {
+    "perkataan": "CONDONG",
+    "sukuKataAkhir": "DONG",
+    "makna": "Tidak tegak lurus, miring, sendeng."
+  },
+  {
+    "perkataan": "CONGKAK",
+    "sukuKataAkhir": "KAK",
+    "makna": "Bersikap sombong."
+  },
+  {
+    "perkataan": "CONTENG",
+    "sukuKataAkhir": "TENG",
+    "makna": "Coretan, calitan (dgn dakwat, kapur dll)."
+  },
+  {
+    "perkataan": "DAHSYAT",
+    "sukuKataAkhir": "SYAT",
+    "makna": "Sangat hebat, mengerikan, hebat sekali."
+  },
+  {
+    "perkataan": "DAMPING",
+    "sukuKataAkhir": "PING",
+    "makna": "Berada dekat dgn seseorang (biasanya orang penting)."
+  },
+  {
+    "perkataan": "DARURAT",
+    "sukuKataAkhir": "RAT",
+    "makna": "Keadaan genting yg tidak diduga; darurat = perlu segera dilakukan."
+  },
+  {
+    "perkataan": "DENDANG",
+    "sukuKataAkhir": "DANG",
+    "makna": "Nyanyian (biasanya berirama gembira); mendendangkan = menyanyikan."
+  },
+  {
+    "perkataan": "DENGKUR",
+    "sukuKataAkhir": "KUR",
+    "makna": "Bunyi nafas yg kasar ketika tidur."
+  },
+  {
+    "perkataan": "DERHAKA",
+    "sukuKataAkhir": "KA",
+    "makna": "Tidak setia (kpd raja, negara); membantah (ibu bapa)."
+  },
+  {
+    "perkataan": "DERMAGA",
+    "sukuKataAkhir": "GA",
+    "makna": "Jambatan di pelabuhan tempat kapal bersandar."
+  },
+  {
+    "perkataan": "DINDING",
+    "sukuKataAkhir": "DING",
+    "makna": "Bahagian sisi bangunan (tembok, dinding kayu)."
+  },
+  {
+    "perkataan": "DIPLOMA",
+    "sukuKataAkhir": "MA",
+    "makna": "Sijil atau ijazah yg diberikan setelah tamat pengajian peringkat tertentu."
+  },
+  {
+    "perkataan": "DONGENG",
+    "sukuKataAkhir": "NGENG",
+    "makna": "Cerita khayalan (yg biasanya mengandungi pengajaran); cerita bohong."
+  },
+  {
+    "perkataan": "DURJANA",
+    "sukuKataAkhir": "NA",
+    "makna": "Berhati jahat, kejam, zalim."
+  },
+  {
+    "perkataan": "EKONOMI",
+    "sukuKataAkhir": "MI",
+    "makna": "Pengetahuan berkaitan pengeluaran, pengagihan, dan penggunaan kekayaan; keadaan kewangan."
+  },
+  {
+    "perkataan": "EMPAYAR",
+    "sukuKataAkhir": "YAR",
+    "makna": "Gabungan beberapa buah negeri (negara) di bawah satu pemerintahan pusat."
+  },
+  {
+    "perkataan": "EMPULUR",
+    "sukuKataAkhir": "LUR",
+    "makna": "Bahagian lembut di tengah batang tumbuhan (spt sagu, tebu)."
+  },
+  {
+    "perkataan": "ENGGANG",
+    "sukuKataAkhir": "GANG",
+    "makna": "Sejenis burung besar yg mempunyai paruh melengkung ke bawah."
+  },
+  {
+    "perkataan": "FAKULTI",
+    "sukuKataAkhir": "TI",
+    "makna": "Bahagian dlm universiti yg merangkumi beberapa jabatan (spt Fakulti Sastera)."
+  },
+  {
+    "perkataan": "FANATIK",
+    "sukuKataAkhir": "TIK",
+    "makna": "Terlalu taksub atau yakin pd sesuatu (fahaman, kepercayaan) tanpa berfikir kritis."
+  },
+  {
+    "perkataan": "FANTASI",
+    "sukuKataAkhir": "SI",
+    "makna": "Daya khayal; sesuatu yg dibayangkan tetapi tidak nyata."
+  },
+  {
+    "perkataan": "FIRASAT",
+    "sukuKataAkhir": "SAT",
+    "makna": "Bisikan hati, gerak hati, ilham; pengetahuan berdasarkan gerak hati."
+  },
+  {
+    "perkataan": "GABENOR",
+    "sukuKataAkhir": "NOR",
+    "makna": "Ketua pentadbir sesuatu wilayah atau negeri (bukan beraja)."
+  },
+  {
+    "perkataan": "GANDING",
+    "sukuKataAkhir": "DING",
+    "makna": "Pasangan (biasanya kuda); berganding = berpasangan; bergandingan = bersama-sama."
+  },
+  {
+    "perkataan": "GANTANG",
+    "sukuKataAkhir": "TANG",
+    "makna": "Sukatan isi padu (utk beras dll), kira-kira 2.5-4 kg."
+  },
+  {
+    "perkataan": "GANTUNG",
+    "sukuKataAkhir": "TUNG",
+    "makna": "Menggantungkan sesuatu pd tempat yg tinggi; menggantungkan = bergantung."
+  },
+  {
+    "perkataan": "GELAGAT",
+    "sukuKataAkhir": "GAT",
+    "makna": "Tingkah laku, gerak-geri, lagak."
+  },
+  {
+    "perkataan": "GELISAH",
+    "sukuKataAkhir": "SAH",
+    "makna": "Merasa tidak tenteram, cemas, resah."
+  },
+  {
+    "perkataan": "GELOJOH",
+    "sukuKataAkhir": "JOH",
+    "makna": "Makan terlalu cepat dan banyak."
+  },
+  {
+    "perkataan": "GEMALAI",
+    "sukuKataAkhir": "LAI",
+    "makna": "Lemah gemalai = lemah lembut dan menarik (bkn gerak-geri, tarian)."
+  },
+  {
+    "perkataan": "GEMBALA",
+    "sukuKataAkhir": "LA",
+    "makna": "Orang yg menjaga binatang ternakan (kambing, lembu dll)."
+  },
+  {
+    "perkataan": "GEMBIRA",
+    "sukuKataAkhir": "RA",
+    "makna": "Merasa suka dan riang."
+  },
+  {
+    "perkataan": "GEMPITA",
+    "sukuKataAkhir": "TA",
+    "makna": "Sangat riuh atau bising; gah (tt nama)."
+  },
+  {
+    "perkataan": "GENDANG",
+    "sukuKataAkhir": "DANG",
+    "makna": "Alat bunyi-bunyian (gendang) yg dipalu; kulit gendang."
+  },
+  {
+    "perkataan": "GENGGAM",
+    "sukuKataAkhir": "GAM",
+    "makna": "Memegang dgn jari-jari tangan yg ditutup rapat."
+  },
+  {
+    "perkataan": "GENTING",
+    "sukuKataAkhir": "TING",
+    "makna": "Keadaan yg sangat gawat atau kritis; sempit (bkn jalan)."
+  },
+  {
+    "perkataan": "GERABAK",
+    "sukuKataAkhir": "BAK",
+    "makna": "Gerak (pd perahu); gerabak = bahagian kereta api utk penumpang atau barang."
+  },
+  {
+    "perkataan": "GERAHAM",
+    "sukuKataAkhir": "HAM",
+    "makna": "Gigi yg besar dan rata di belakang, utk melumatkan makanan."
+  }
+]

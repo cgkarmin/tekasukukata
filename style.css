@@ -1,0 +1,496 @@
+/* style.css - Kod Penuh dengan Elemen Tema "Gotong Royong Good Old Days" */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&family=Quicksand:wght@400;700&display=swap');
+/* Ganti atau tambah font lain di sini jika perlu */
+
+
+/* Palet Warna Tema */
+:root {
+    --color-padi-segar: #8BC34A;
+    --color-tanah-tua: #689F38;
+    --color-langit-cerah: #03A9F4;
+    --color-matahari-jerami: #FFC107;
+    --color-kayu-tanah: #795548;
+    --color-semangat-merah: #E57373;
+    --color-latar-lembut: #FFF8E1; /* Krem Lembut */
+    --color-teks-gelap: #3E2723; /* Coklat Gelap */
+}
+
+
+/* Gaya asas untuk body */
+body {
+    font-family: 'Quicksand', sans-serif; /* Font teks badan */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-latar-lembut); /* Latar belakang tema */
+    color: var(--color-teks-gelap); /* Warna teks tema */
+    min-height: 100vh; /* Pastikan body sekurang-kurangnya setinggi viewport */
+    display: flex;
+    flex-direction: column; /* Susun anak-anak diari secara kolum */
+}
+
+/* Gaya header */
+header {
+    background-color: var(--color-padi-segar); /* Warna tema */
+    color: var(--color-teks-gelap); /* Warna teks tema */
+    padding: 1.5rem 0; /* Lebih padding */
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15); /* Contoh shadow, boleh sesuaikan tema */
+}
+header h1 {
+    font-family: 'Slabo 27px', serif; /* Font tajuk */
+    color: var(--color-teks-gelap);
+    margin: 0;
+    font-size: 2em; /* Saiz tajuk */
+}
+
+
+/* Gaya utama container */
+main {
+    flex-grow: 1; /* Ambil ruang yang tinggal */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Ubah kepada flex-start untuk halaman panjang */
+}
+
+
+/* Gaya section (halaman) */
+section {
+    display: none; /* Lalai, akan diubah oleh JS */
+    padding: 30px; /* Tambah padding */
+    border: 2px solid var(--color-kayu-tanah); /* Border tema kayu */
+    margin-bottom: 20px;
+    background-color: white; /* Kekalkan putih atau guna warna tema lembut lain */
+    border-radius: 8px; /* Sudut bulat tema */
+    max-width: 600px; /* Lebar maksimum kandungan */
+    width: 100%; /* Ambil lebar penuh hingga max-width */
+    box-sizing: border-box; /* Pastikan padding dan border termasuk dalam width/height */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* Shadow tema */
+    text-align: center; /* Pastikan konten dalam section terpusat */
+}
+
+/* ----- Gaya untuk Landing Page ----- */
+#landing-page {
+    display: block; /* Ini akan diuruskan oleh JS, tapi baik ada gaya lalai di CSS */
+    /* background-color: var(--color-latar-lembut); /* Latar lembut tema, atau guna latar section umum */
+    /* Jika mahu section landing-page tidak mempunyai border sendiri sebab kad sudah ada border */
+    /* border: none;  */
+    /* box-shadow: none;  */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#landing-page h2 { /* Tajuk utama landing page */
+    font-family: 'Slabo 27px', serif;
+    color: var(--color-kayu-tanah);
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 2.2em; /* Lebih menonjol */
+}
+
+#landing-page img { /* Imej layang-layang */
+    display: block;
+    margin: 0 auto 25px auto; /* Pusatkan imej dan beri ruang bawah */
+    max-width: 70%; /* Kurangkan sedikit lebar jika perlu */
+    height: auto;
+    max-height: 250px; /* Hadkan ketinggian imej jika perlu */
+    border: 4px solid var(--color-kayu-tanah);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Kad Informasi di Landing Page */
+.info-card {
+    background-color: #FFFEF5; /* Warna latar sedikit berbeza, atau #FFFFFF */
+    padding: 25px 30px;
+    margin: 0 auto 30px auto;
+    border: 2px solid var(--color-tanah-tua);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    max-width: 580px; /* Pastikan kad muat dalam section */
+}
+
+.info-card h3 {
+    font-family: 'Slabo 27px', serif;
+    color: var(--color-padi-segar);
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed var(--color-tanah-tua);
+    padding-bottom: 10px;
+}
+
+.info-card h3:first-child {
+    margin-top: 0;
+}
+
+.info-card p,
+.info-card ul {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--color-teks-gelap);
+    font-size: 1.05em; /* Atau 1em jika Quicksand sudah cukup besar */
+    line-height: 1.75;
+    margin-bottom: 15px;
+}
+
+.info-card ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.info-card ul ul {
+    margin-top: 8px;
+    margin-bottom: 10px;
+    list-style-type: circle;
+    padding-left: 25px;
+}
+
+.info-card ul li {
+    margin-bottom: 8px;
+}
+
+.info-card p:last-child,
+.info-card ul:last-child {
+    margin-bottom: 0;
+}
+
+/* Butang Mula Main di Landing Page */
+#landing-page #start-game-btn {
+    margin-top: 10px;
+    padding: 15px 35px;
+    font-size: 1.3em;
+}
+/* ----- Akhir Gaya Landing Page ----- */
+
+
+/* Gaya butang umum */
+button {
+    display: inline-block;
+    background-color: var(--color-semangat-merah);
+    color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, opacity 0.3s ease, transform 0.1s ease;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+button:hover:not(:disabled) {
+    background-color: #C62828; /* Merah lebih gelap */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+button:active:not(:disabled) {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+button:disabled {
+    background-color: #b0b0b0;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+
+/* Gaya input fields */
+input[type="text"], input[type="email"] {
+    padding: 10px;
+    margin: 8px 0;
+    border: 2px solid var(--color-kayu-tanah);
+    border-radius: 5px;
+    font-size: 1rem;
+    width: calc(100% - 24px); /* Ambil kira padding dan border */
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+input[type="text"]:focus, input[type="email"]:focus {
+    outline: none;
+    border-color: var(--color-langit-cerah);
+    box-shadow: 0 0 5px rgba(3, 169, 244, 0.5);
+}
+
+
+/* Gaya untuk paparan info game (score, timer, errors) */
+#game-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    flex-wrap: wrap;
+    background-color: var(--color-latar-lembut);
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--color-kayu-tanah);
+}
+#game-info > div {
+    margin: 5px 10px;
+    color: var(--color-teks-gelap);
+}
+#timer-display {
+    color: var(--color-teks-gelap);
+}
+#timer-display span {
+    color: var(--color-kayu-tanah);
+}
+#timer-display.warning { /* Kelas untuk warna merah bila masa sikit */
+    color: red !important; /* Guna !important jika perlu mengatasi gaya span */
+    font-weight: bold;
+}
+#timer-display.warning span {
+    color: red !important; /* Pastikan nombor juga merah */
+}
+
+#errors-display span {
+    color: var(--color-semangat-merah);
+}
+#score-display span {
+    color: var(--color-padi-segar);
+}
+
+
+/* Gaya untuk kawasan perkataan */
+#word-area {
+    margin-bottom: 30px;
+}
+
+#word-display {
+    font-family: 'Slabo 27px', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    min-height: 1.8em; /* Cukup tinggi untuk perkataan */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Pastikan _ _ _ selari dengan perkataan */
+    flex-wrap: wrap;
+    color: var(--color-teks-gelap);
+    padding: 10px 0; /* Ruang sedikit */
+}
+
+#word-part-fixed {
+    color: var(--color-teks-gelap);
+    margin-right: 5px; /* Jarak antara bahagian tetap dan input */
+}
+
+#missing-syllable-input {
+    min-width: 80px; /* Atau sesuaikan dengan panjang suku kata maksima */
+    display: inline-block;
+    border-bottom: 3px dashed var(--color-kayu-tanah);
+    padding: 0 5px;
+    text-align: center; /* Untuk _ _ _ */
+    line-height: 1.2; /* Laraskan jika _ _ _ nampak tinggi */
+    color: var(--color-teks-gelap); /* Warna untuk _ _ _ atau jawapan yang diisi */
+    letter-spacing: 2px; /* Jarakkan _ jika guna repeat */
+}
+
+
+/* Gaya untuk input huruf dan feedback */
+#input-feedback-area {
+    margin-bottom: 20px;
+}
+
+#letter-input {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 15px;
+    border: 3px solid var(--color-kayu-tanah);
+    border-radius: 10px;
+    font-family: 'Slabo 27px', serif;
+    color: var(--color-teks-gelap);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+#letter-input:focus {
+    outline: none;
+    border-color: var(--color-langit-cerah);
+    box-shadow: 0 0 8px rgba(3, 169, 244, 0.8);
+}
+
+
+#feedback-display {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    min-height: 1.5em;
+}
+
+
+/* Gaya untuk mesej game (Anda kalah, Betul!) */
+#game-message {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 25px;
+    min-height: 1.5em;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Gaya untuk visual 'skirt merudum' */
+#skirt-visual {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(62, 39, 35, 0.6); /* Coklat gelap tema separuh lutsinar */
+    z-index: 100;
+    display: none;
+    pointer-events: none;
+}
+
+
+/* Gaya halaman tamat permainan */
+#game-over-page h2 {
+    font-family: 'Slabo 27px', serif;
+    color: var(--color-semangat-merah); /* Merah untuk 'game over' */
+    margin-bottom: 20px;
+}
+#game-over-page p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    color: var(--color-teks-gelap);
+}
+
+
+/* Gaya papan markah */
+#leaderboard-page h2 {
+    font-family: 'Slabo 27px', serif;
+    margin-bottom: 20px;
+    color: var(--color-kayu-tanah);
+}
+#leaderboard-list {
+    list-style: none;
+    padding: 0;
+    max-height: 300px; /* Had ketinggian jika senarai panjang */
+    overflow-y: auto; /* Tambah skrol jika perlu */
+    border: 1px solid var(--color-kayu-tanah);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background-color: var(--color-latar-lembut);
+}
+
+#leaderboard-list li {
+    background-color: #fff;
+    border-bottom: 1px solid var(--color-kayu-tanah);
+    padding: 10px 15px; /* Padding lebih selesa */
+    text-align: left;
+    font-size: 1.1rem;
+    color: var(--color-teks-gelap);
+}
+#leaderboard-list li:last-child {
+    border-bottom: none;
+}
+#leaderboard-list li:nth-child(odd) { /* Hiasan belang-belang jika mahu */
+    /* background-color: #f9f9f9; */ /* Warna sikit berbeza */
+}
+
+
+/* Gaya footer */
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: auto; /* Pastikan footer di bawah jika kandungan pendek */
+    color: var(--color-teks-gelap);
+    font-size: 0.9rem;
+    background-color: var(--color-latar-lembut);
+    border-top: 1px solid var(--color-kayu-tanah);
+}
+
+/* Kelas CSS untuk feedback mesej warna (ditambah oleh JS) */
+.feedback-green { color: #28A745; }
+.feedback-yellow { color: #FFC107; } /* Warna tema matahari/jerami */
+.feedback-red { color: #DC3545; }
+
+/* Kelas CSS untuk jawapan yang ditunjukkan selepas kalah */
+.lost-word-answer {
+    color: var(--color-semangat-merah);
+    font-weight: bold;
+}
+
+/* Media queries untuk responsif */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8em; /* Sedikit penyesuaian */
+    }
+    #landing-page h2 {
+        font-size: 1.9em;
+    }
+    .info-card h3 {
+        font-size: 1.6em;
+    }
+    .info-card p, .info-card ul {
+        font-size: 1em;
+    }
+    #word-display {
+        font-size: 2.5rem; /* Sedikit penyesuaian */
+        letter-spacing: 2px;
+    }
+    #letter-input {
+        width: 60px;
+        height: 60px;
+        font-size: 2.5rem;
+    }
+    section {
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+    #game-info {
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.1rem;
+    }
+    #game-info > div {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+    #landing-page h2 {
+        font-size: 1.6em;
+    }
+    .info-card h3 {
+        font-size: 1.4em;
+    }
+    .info-card p, .info-card ul {
+        font-size: 0.95em;
+    }
+    .info-card {
+        padding: 20px 15px;
+    }
+    #word-display {
+        font-size: 1.8rem; /* Lebih kecil untuk skrin sempit */
+        letter-spacing: 1px;
+    }
+    #letter-input {
+        width: 50px;
+        height: 50px;
+        font-size: 2rem;
+    }
+    section {
+        padding: 15px;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+    #landing-page #start-game-btn {
+        padding: 12px 25px;
+        font-size: 1.1em;
+    }
+}

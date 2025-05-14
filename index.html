@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Permainan Rimakata Good Old Days</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Permainan Rimakata Sukukata</h1>
+    </header>
+
+    <main id="game-container">
+        <section id="landing-page">
+            <h2>Selamat Datang ke Permainan Rimakata!</h2>
+            <img src="placeholder_kite.png" alt="Ilustrasi kanak-kanak bermain layang-layang" style="max-width: 80%; height: auto; max-height:250px;">
+
+            <div class="info-card">
+                <h3>Tentang Permainan</h3>
+                <p>Selamat kembali ke zaman "Good Old Days"! Permainan Rimakata ini mengajak anda meneroka kekayaan suku kata Bahasa Melayu dalam suasana nostalgia sawah bendang dan gunung-ganang yang mendamaikan.</p>
+                <p>Uji ketajaman minda dan kemahiran Bahasa Melayu anda dengan meneka dan melengkapkan suku kata terakhir bagi setiap perkataan yang diberikan.</p>
+
+                <h3>Cara Bermain</h3>
+                <ul>
+                    <li><strong>Mula Permainan:</strong>
+                        <ul>
+                            <li>Klik butang "Mula Main" di bawah.</li>
+                            <li>Daftarkan nama anda untuk dicatatkan di Papan Markah Teratas!</li>
+                            <li>Pilih Tahap Kesukaran (Asas, Sederhana, atau Maju). Setiap tahap mempunyai had masa dan jumlah kesalahan "Merah" yang berbeza.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Semasa Bermain:</strong>
+                        <ul>
+                            <li>Perkataan akan dipaparkan dengan suku kata terakhirnya dikosongkan (contoh: PERMAI _ _ _ ).</li>
+                            <li>Taip huruf demi huruf menggunakan papan kekunci untuk melengkapkan suku kata tersebut.</li>
+                            <li>Perhatikan pemasa! Semakin pantas anda meneka dengan betul, semakin tinggi bonus mata yang diperoleh.</li>
+                            <li>Setiap tekaan huruf yang salah akan menambah kiraan "Kesalahan Merah". Jangan sampai had maksimum!</li>
+                        </ul>
+                    </li>
+                    <li><strong>Perlukan Bantuan?</strong>
+                        <ul>
+                            <li>Klik butang "Paparkan Makna" untuk mendapatkan klu tentang perkataan (akan ada sedikit penalti pada markah).</li>
+                        </ul>
+                    </li>
+                    <li><strong>Matlamat Anda:</strong>
+                        <ul>
+                            <li>Kumpul markah sebanyak mungkin dengan meneka suku kata terakhir dengan tepat dan pantas!</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>Selamat berjuang dan semoga berjaya menguasai suku kata!</p>
+            </div>
+
+            <button id="start-game-btn">Mula Main</button>
+        </section>
+
+        <section id="registration-page" style="display: none;">
+            <h2>Daftar Pemain</h2>
+            <label for="playerName">Nama:</label><br>
+            <input type="text" id="playerName" name="playerName" required><br><br>
+            <label for="playerEmail">Email:</label><br>
+            <input type="email" id="playerEmail" name="playerEmail" required><br><br>
+            <button id="register-player-btn">Daftar & Pilih Tahap</button>
+        </section>
+
+        <section id="level-selection-page" style="display: none;">
+            <h2>Pilih Tahap Kesukaran</h2>
+            <div id="difficulty-selector">
+                <label for="difficulty">Tahap:</label>
+                <input type="range" id="difficulty" name="difficulty" min="1" max="3" value="1" step="1">
+                <span id="difficulty-level-name">Asas (30s, 7 Merah)</span>
+            </div>
+            <p><small>Asas (30s masa, 7 Kesalahan Merah) | Sederhana (20s masa, 5 Kesalahan Merah) | Maju (15s masa, 3 Kesalahan Merah)</small></p>
+            <button id="start-level-btn">Mula Permainan</button>
+        </section>
+
+        <section id="game-play-page" style="display: none;">
+            <div id="game-info">
+                <div id="score-display">Markah: <span id="current-score">0</span></div>
+                <div id="timer-display">Masa: <span id="time-left">--</span>s</div>
+                <div id="errors-display">Kesalahan Merah: <span id="red-errors">0</span> / <span id="max-errors">--</span></div>
+            </div>
+
+            <div id="pause-continue-controls" style="margin-bottom: 20px;">
+                <button id="pause-game-btn">Jeda</button>
+                <button id="continue-game-btn" style="display: none;">Teruskan Permainan</button>
+            </div>
+            <div id="word-area">
+                <p>Lengkapkan perkataan:</p>
+                <div id="word-display">
+                    <span id="word-part-fixed"></span>
+                    <span id="missing-syllable-input"></span>
+                </div>
+            </div>
+
+            <div id="meaning-area" style="margin-top: 20px; margin-bottom: 20px;">
+                <button id="show-meaning-btn">Paparkan Makna</button>
+                <div id="meaning-display" style="display: none; margin-top: 10px; padding: 10px; border: 1px dashed #ccc;">
+                    Makna: <span id="word-meaning-text"></span>
+                </div>
+            </div>
+            <div id="input-feedback-area">
+                <label for="letter-input">Masukkan Huruf Setempat:</label>
+                <input type="text" id="letter-input" maxlength="1">
+                <div id="feedback-display"></div>
+            </div>
+
+            <div id="game-message" style="display: none;">
+            </div>
+
+            <div id="skirt-visual" style="display: none;"></div>
+        </section>
+
+        <section id="game-over-page" style="display: none;">
+            <h2>Permainan Tamat</h2>
+            <p>Markah Akhir Anda: <span id="final-score">0</span></p>
+            <button id="play-again-btn">Main Lagi</button>
+            <button id="view-leaderboard-btn">Lihat Papan Markah</button>
+        </section>
+
+        <section id="leaderboard-page" style="display: none;">
+            <h2>Papan Markah Teratas (Top 10)</h2>
+            <ol id="leaderboard-list">
+                <li>Memuatkan Papan Markah...</li>
+            </ol>
+            <button id="back-to-menu-btn">Kembali ke Menu</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Permainan Rimakata</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
